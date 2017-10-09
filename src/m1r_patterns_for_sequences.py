@@ -13,8 +13,8 @@ Of course, these are not the only patterns, and some problems require
 combining these patterns, but this is a good base upon which to build.
 
 Authors: David Mutchler, Valerie Galluzzi, Mark Hays, Amanda Stouder,
-         their colleagues and PUT_YOUR_NAME_HERE.
-"""  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
+         their colleagues and Derek Grayless.
+"""  # Done: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
 # ----------------------------------------------------------------------
 # TODO: 2. SKIM the program below and RUN it.
@@ -388,7 +388,7 @@ def min_index(sequence):
     # ------------------------------------------------------------------
     index_of_min = 0
     for k in range(1, len(sequence)):
-        if sequence[k] < sequence[index_of_min]:
+        if len(sequence[k]) < len(sequence[index_of_min]):
             index_of_min = k
 
     return index_of_min
