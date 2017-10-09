@@ -11,7 +11,7 @@ import rosegraphics as rg
 
 
 def main():
-    run_test_RETURN_circle()
+    # run_test_RETURN_circle()
     run_test_MUTATE_circle()
 
 
@@ -304,12 +304,14 @@ def MUTATE_circle(circle, color, n):
     Precondition: The first argument is a rg.Circle and the second
                   argument is a color appropriate for Zellegraphics.
     """
-    # TODO: 3. First, READ THE ABOVE TEST CODE.
+    # Done: 3. First, READ THE ABOVE TEST CODE.
     #          Make sure that you understand it.
     #          Then, IMPLEMENT and test THIS FUNCTION
     #          (using the above code for testing).
     # HINT: This function can be implemented with just TWO lines of code.
 
+    circle.fill_color = color
+    circle.center.x = circle.center.x + n
 
 # ----------------------------------------------------------------------
 # If this module is running at the top level (as opposed to being
