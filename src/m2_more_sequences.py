@@ -17,7 +17,7 @@ Authors: David Mutchler, Valerie Galluzzi, Mark Hays, Amanda Stouder,
 def main():
     """ Calls the   TEST   functions in this module. """
     run_test_shortest_string()
-    # run_test_index_of_largest_number()
+    run_test_index_of_largest_number()
     # run_test_number_of_stutters()
     # run_test_is_palindrome()
     # run_test_count_same()
@@ -185,9 +185,15 @@ def index_of_largest_number(numbers, n):
 
     """
     # ------------------------------------------------------------------
-    # TODO: 3. Implement and test this function.
+    # Done: 3. Implement and test this function.
     #     The testing code is already written for you (above).
     # ------------------------------------------------------------------
+
+    index_of_biggest = 0
+    for k in range(1, n):
+        if numbers[k] > numbers[index_of_biggest]:
+            index_of_biggest = k
+    return index_of_biggest
 
 
 # ----------------------------------------------------------------------
