@@ -4,8 +4,8 @@ In this module, you mutate by CHANGING elements of a list.
 
 Authors: David Mutchler, Amanda Stouder, Chandan Rupakheti, Katie Dion,
          Claude Anderson, Delvin Defoe, Curt Clifton, their colleagues,
-         and PUT YOUR NAME HERE.
-"""  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
+         and Derek Grayless.
+"""  # Done: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
 # ----------------------------------------------------------------------
 # STUDENTS:
