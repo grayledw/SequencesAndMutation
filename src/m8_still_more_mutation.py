@@ -143,6 +143,10 @@ def MUTATE_delete_negatives(numbers):
     #       then see the solutions posted on Piazza.
     #       See those solutions even if your approach passes the tests.
 
+    for k in range(len(numbers) - 1, len(numbers), -1):
+        if numbers[k] < 0:
+            numbers.remove(k)
+    
 
 # ----------------------------------------------------------------------
 # If this module is running at the top level (as opposed to being
